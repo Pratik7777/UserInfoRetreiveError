@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695489579727",
+    "firebase_url": "https://gymassistant-c494d.firebaseio.com",
+    "project_id": "gymassistant-c494d",
+    "storage_bucket": "gymassistant-c494d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695489579727:android:dca39534e56c720d61c5ba",
+        "android_client_info": {
+          "package_name": "com.example.gymassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695489579727-8ub6rfp701qqu7mio59hoh9560r5hde4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymassistant",
+            "certificate_hash": "ab9d00379a5c81350e788d988116c2e3359490be"
+          }
+        },
+        {
+          "client_id": "695489579727-aqbl27285m1ooeokvieuufepeh0p9vtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHsWmvymKxl6HmTgxVxJkHW54M_Y1EO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695489579727-aqbl27285m1ooeokvieuufepeh0p9vtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

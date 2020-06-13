@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/ff"
+        android:textColor="@color/darkgrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback Form"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/fusername"
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ff"
+        />
+    <EditText
+        android:id="@+id/feedback_text"
+        android:layout_below="@+id/fusername"
+        android:layout_width="350dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="300dp"
+        android:gravity="top"
+        android:hint="Write Your Feedback"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback_button"
+        android:text="Send FeedBack"
+        android:layout_below="@+id/feedback_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
